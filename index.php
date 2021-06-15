@@ -371,6 +371,19 @@ session_start();
                    <p class="copyright">ADIT IBM Bengaluru<br>2021</br></p>
               </div>
           </div>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "3337bee4-605e-40bc-a3bb-68055621cac2", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "e7d61a92-d56a-4fd3-bc0e-711792e3d682", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
 
